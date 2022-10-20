@@ -1,0 +1,67 @@
+.dégradé{
+    background: linear-gradient(#212529,white);
+}
+.banner{
+    background: linear-gradient(white,#212529);
+}
+#banner{
+    text-align:center;
+    margin:auto;
+    width: 100%;
+    color: black;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+.texte{
+    font-size: xx-large;
+    text-align: left;
+}
+.soustexte{
+    font-size: xx-small;
+    text-align: center;
+}
+.desc{
+    font-size: large;
+    font-weight: bold;
+}
+.textei{
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: left;
+    font-style: italic;
+    color: #ffffff;
+}
+.desci{
+    font-size: large;
+    text-align: left;
+    font-style: italic;
+    color: #8a8a8a;
+}
+
+.gradient {
+    position: relative;
+    background: radial-gradient(gray, #7F7F7F , #212529);
+}
+
+
+.gradient::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(#7F7F7F, #2c3034 ,#212529);
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.gradient:hover::before {
+    opacity: 50%;
+}
+
+.dégradé2{
+    position: relative;
+    background: radial-gradient(gray, #7F7F7F , #212529);
+}
